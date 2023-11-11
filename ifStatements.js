@@ -9,9 +9,23 @@
 // Experiment with manipulating the value held within numQuarters to make sure both conditions can be achieved.
 
 var numQuarters = 0;
+var gumballCost = 2;
 
-console.log("I have enough money for a gumball");
-console.log("I don't have enough money for a gumball");
+
+if (gumballCost > numQuarters) {
+    console.log("I don't have enough money for a gumball");
+} else {
+    console.log("I have enough money for a gumball");
+}
+
+numQuarters = 100000;
+
+if (gumballCost > numQuarters) {
+    console.log("I dont have enough money for a gumball");
+} else {
+    console.log("I have enough money for a gumabll");
+}
+
 
 
 // CHALLENGE 2
@@ -29,3 +43,35 @@ console.log("I don't have enough money for a gumball");
 var cupsOfFlour = 1;
 var hasSauce = true;
 
+if (cupsOfFlour >= 2 && hasSauce) {
+    console.log("I cannot make pizza");
+} else {
+    console.log("I can make pizza")
+}
+
+cupsOfFlour = 5;
+hasSauce = false;
+
+if (cupsOfFlour >= 2 && hasSauce) {
+    console.log("I cannot make pizza");
+} else {
+    console.log("I can make pizza")
+}
+
+cupsOfFlour = 2;
+hasSauce = true;
+
+if (cupsOfFlour >= 2 && hasSauce) {
+    console.log("I cannot make pizza");
+} else {
+    console.log("I can make pizza")
+}
+
+cupsOfFlour = 3;
+hasSauce = true;
+
+if (cupsOfFlour >= 2 && hasSauce) {
+    console.log("I cannot make pizza");
+} else {
+    console.log("I can make pizza")
+}
